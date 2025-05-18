@@ -1,4 +1,5 @@
+package travel;
 
-public class Bus {
+public class Bus extends Vehicle{
 
 }
