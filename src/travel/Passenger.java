@@ -34,7 +34,7 @@ public class Passenger {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	public void print_info() {
-		System.out.println("Name: "+name+"\nPhone: "+phone);
+	public void getPassengerInfo() {
+		System.out.println("ID: "+id +"\nName: "+name+"\nPhone: "+phone);
 	}
 }

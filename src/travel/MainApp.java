@@ -17,7 +17,11 @@ public class MainApp {
 		
 		Trip trip =new Trip();
 		trip.createTrip(0, "Jorder", "Palstine", tripDate, tripDTime, plane);
-		
+//		plane.createTicket(basemPassenger, trip);
+		plane.getTripPassengers(trip);
+		plane.getInfo();
+		basemPassenger.getPassengerInfo();
+		trip.getTripDetails();
 	}
 
 }

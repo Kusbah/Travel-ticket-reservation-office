@@ -8,4 +8,7 @@ public class Train extends Vehicle implements Ticket{
 		return false;
 	}
 
+	public void getInfo() {
+		System.out.println("the Train datails : id : "+id +"\nthe Modle: "+modle+"\ncompany Name: "+company);
+	}
 }

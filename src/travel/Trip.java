@@ -21,4 +21,12 @@ public class Trip {
 		this.tripTime = tripTime;
 		this.v = v;
 	}
+	void getTripDetails() {
+		System.out.println("the Trip Info is : \n"+"trip number is: "+tripId+" trip from: "+from+" trip to: "+to );
+		System.out.println("the trip date is: "+tripDate+" and time is: "+tripTime);
+		if(v instanceof Plane) {
+			((Plane) v).getTripPassengers(this);
+		}
+		v.getInfo();
+	}
 }
